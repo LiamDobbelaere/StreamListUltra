@@ -1,0 +1,19 @@
+{
+  "name": "streamlist-ultra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "ts-node": {
+    "swc": true
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.4.17",
+    "ts-node": "^10.9.2"
+  }
+}
